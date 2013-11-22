@@ -11,8 +11,6 @@ module AutoBreadcrumbs
       helper_method :action_translation
     end
 
-    private
-
     def add_breadcrumb_on_action(options = {})
       add_breadcrumb breadcrumbs_t('root'), :root_path
 
